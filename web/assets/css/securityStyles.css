@@ -1,0 +1,18 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4/02/2018, 06:42:07 PM
+    Author     : bryan
+*/
+body{
+    background-image: url("../imgs/blocksBlack.png");
+    background-repeat: no-repeat; /*no se repita la imagen*/
+    background-size: cover; /*cubra el tamaño de la pagina*/
+    background-position: center center;
+    background-attachment: fixed;
+    opacity: 1;
+}
+#sectCdesClass , #proccsPass { display: none; }

@@ -1,0 +1,9 @@
+body{
+        background-image: url("../imgs/historic.jpg");
+        background-repeat: no-repeat; /*no se repita la imagen*/
+        background-size: cover; /*cubra el tamaño de la pagina*/
+        background-position: center center;
+        background-attachment: fixed;
+        opacity: 1;
+        background-color: #f2f2f2;
+    }
