@@ -1,0 +1,77 @@
+/* 
+    Created on : 9/06/2017, 01:50:04 AM
+    Author     : bryan
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("../../imgs/sky.jpg");
+	background-repeat: no-repeat; /*no se repita la imagen*/
+	background-size: cover; /*cubra el tamaño de la pagina*/
+	background-position: center center;
+	background-attachment: fixed;
+    opacity: 1;
+}
+.box-form{
+    background-color: transparent;
+    padding: 1%;
+    margin: 3%20%;
+    opacity: .9;
+}
+.box-form h1, .box-SendEmail h1{color: #fff;text-align: center; font-size: 250%;}
+.box-form form label{
+    margin: 5%0%;
+    color: #fff;
+    font-size: 120%;
+}
+.box-form form input{
+    margin: 5%0%;
+    padding: 1%;
+    text-align: center;
+    color: #000;
+    font-size: 120%;
+    width: 70%;
+}
+.box-form form select{
+    background-color: #04467E;
+    color: #fff;
+    padding: 1.5%;
+    text-align: center;
+    font-size: 100%;
+}.box-form form select:hover{ background-color: #1b6d85;}
+.box-form form select option{ background-color: #23527c;padding: 2%;margin: 1%;}
+.box-form form input[type="submit"]{
+    background-color:#04467E ;
+    color: #fff;
+    padding: 1%;
+    text-align: center;
+    border: 0px ;
+    width: 30%;
+}.box-form form input[type="submit"]:hover, .box-form form input[type="submit"]:focus{
+    border: 0px  ;
+    background-color: #1b6d85;
+    box-shadow: 1px 3px 3px 1px #04467E;
+}
+
+        /*EMAIL IMGS OPTION*/
+   .box-form #lbelTitleCorreo{ margin: 0%5%0%0%;}
+
+/*estilos para cuerpo del mensaje*/
+.box-SendEmail{
+    background-color: transparent;
+    padding: 1%;
+    margin: 3%10%;
+    opacity: .9;
+    width: 80%;
+}
+.box-SendEmail label{ 
+    color: #fff;
+    font-size: 140%;
+}
+
+@media (max-width:768px){
+    .box-SendEmail{margin: 3%3%;padding: 1%; width: 90%;}
+    .box-SendEmail h1{margin: 5%0%;}
+}

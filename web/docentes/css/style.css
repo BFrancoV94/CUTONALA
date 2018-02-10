@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.icon{
+	margin-left: 10px;
+}
+
+.section{
+	display: flex;
+	width: 90%;
+	padding: 10px;
+	margin: 55px auto;
+	background: #fff;
+	justify-content: space-arround;
+}
+
+.contenedor-menu{
+	margin: auto;
+	display: block;
+	width: 70%;
+	line-height: 20px;
+	background: #EEE;
+}
+
+.contenedor-menu h3{
+	margin: 20px 15px;
+}
+
+.contenedor-menu .menu{
+	width: 100%;
+}
+
+.contenedor-menu ul{
+	list-style: none;
+}
+
+.contenedor-menu .menu li a{
+	display: block;
+	padding: 15px 20px;
+	color: #494949;
+	background: #E9E9E9;
+}
+
+.contenedor-menu .menu li a:hover{
+	text-decoration: none;
+	background: #00897B;
+	color: #fff;
+}
+
+.contenedor-menu .menu ul{
+	display: none;
+}
+
+.contenedor-menu .menu ul li{
+	display: flex;
+	padding:5px;
+	background: #616161;
+	color: #FFF;
+	justify-content: space-arround;
+}
+
+.contenedor-menu .menu ul li:hover{
+	background: #00897B;
+}
+.contenedor-menu .menu .Show-form{
+    background-color: #3343;
+}
+.contenedor-menu .menu .activo > a{
+	font-size:20px;
+	background: #00897B;
+	color: #fff;
+}
+
+
+.lateral{
+	margin: auto 10px;
+	padding: 5px;
+	width: 40%;
+}
+
+.lateral h2{
+	margin: auto;
+	width: 50%;
+}
+
+.lateral .contenedor-form{
+	margin: 1.3em auto;
+	width: 100%;
+}
+
+.asignatura{
+	width: 86%;
+}
+.add-btn-alumno{
+    background-color: #00304B;
+    text-align: center;
+    margin:-10%0%;
+    position: fixed;
+    width: 32%;
+}
+.add-btn-alumno h3{background-color: #8c8c8c;color: #fff; padding: 1%;font-family: Arial,sans-serif;}
+.add-btn-alumno button{
+    padding: 1%;
+    margin: 2%0%;
+    color: #000;
+    font-family: sans-serif,Arial;
+    font-size: 120%;
+}.add-btn-alumno button:hover{box-shadow: 1px 4px 15px #000;}
+
+.lateral .contenedor-form{display: none; }
+.lateral .contenedor-form{border: 1px solid #000;padding: 1%;}
+.lateral .contenedor-form h2{text-align: center;width: 100%;padding: 1%; background-color: #00304B;color: #fff;}
+.contenedor-form form{padding: 1%;}
+.contenedor-form form input{
+	margin: 1%0%;
+        width: 100%;
+        padding: 1%;
+        text-align: left;
+}.contenedor-form form input:hover{border: 3px solid #000;}
+.contenedor-form form #inRadio{padding: 1%;}
+.contenedor-form form #inRadio label{font-size: 120%;font-family: sans-serif,Arial;}
+.contenedor-form form input[type="radio"]{
+    padding: 1%;
+    margin: 1%0%;
+    width: 10%;
+}
+
+.materias{
+	width: 100%;
+}
+
+.descripcion a{
+	display: block;
+	padding: 15px 20px;
+	color: #494949;
+	background: #E9E9E9;
+}
+
+.descripcion a:hover{
+	text-decoration: none;
+	background: #00897B;
+	color: #fff;
+}
+
+.turno > a{
+	background: #3343;
+	font-size: 10px;
+}
